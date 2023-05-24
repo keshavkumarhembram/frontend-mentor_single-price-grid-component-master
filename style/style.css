@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: hsl(206, 47%, 93%);
+    font-size: 16px;
+    height: 100vh;
+}
+
+.join-community {
+    width: 45%;
+    margin: auto;
+    margin-top: 10%;
+    overflow: hidden;
+    border-radius: 10px;    
+}
+
+/* HEADLINE */
+.join-community-headline {
+    padding: 30px;
+    background-color: white;
+}
+
+.join-community-headline h2 {
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 20px;
+}
+.join-community-headline h4 {
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 10px;
+}
+
+.join-community-healine-text {
+    color: hsl(218, 22%, 67%);
+}
+
+
+/* SUBSCRIPTION */
+.subscription {
+    display: flex;
+    color: white;
+}
+
+/* SUBSCRIPTION PLAN*/
+.subscription-plan {
+    padding: 30px;
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.subscription-plan h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subscription-plan .price {
+    display: flex;
+    align-items: center;
+}
+.subscription-plan .price .amount{
+    font-weight: 700;
+    font-size: 30px;
+    padding-right: 5px;
+}
+.subscription-plan .price .duration{
+    color: hsl(204, 43%, 93%);
+}
+.subscription-plan p{
+    color: hsl(204, 43%, 93%);
+    padding-bottom: 10px;
+}
+
+.subscription-plan .sign-up {
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 700;
+    padding: 15px;
+    background-color: hsl(71, 73%, 54%);
+    border:none;
+    border-radius: 5px;
+    color: inherit;
+
+}
+
+/* SUBSCRIPTION REASON */
+.subscription-reason {
+    padding: 30px;
+    width: 50%;
+    background-color:hsl(179, 44%, 53%);
+}
+
+.subscription-reason ul {
+    padding-top: 10px;
+    list-style: none;
+}
+.subscription-reason ul li {
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+/* SCREEN WIDTH */
+@media screen and (max-width: 1100px) {
+    .join-community {
+        width: 65%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .join-community {
+        width: 85%;
+    }
+    .join-community h2 {
+        font-size: 20px;
+    }
+    .subscription {
+        width: 100%;
+        flex-direction: column;
+        overflow: visible;
+    }
+
+    .subscription-plan {
+        width: auto;
+    }
+
+    .subscription-reason {
+        width: auto;
+    }
+
+}
+
