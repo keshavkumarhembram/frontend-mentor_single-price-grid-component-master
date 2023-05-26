@@ -26,8 +26,8 @@ body {
 .join-community {
   /* width: 45%;
     margin: auto;
-    margin-top: 10%;
-    overflow: hidden; */
+    margin-top: 10%; */
+    overflow: hidden;
   border-radius: 10px;
 }
 
@@ -145,5 +145,9 @@ footer {
 
   .subscription-reason {
     width: auto;
+  }
+
+  footer {
+    position: relative;
   }
 }
